@@ -17,6 +17,7 @@ import {
     Trash2,
     ImageIcon,
     FileTextIcon,
+    GithubIcon,
 } from "lucide-react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import {
@@ -164,9 +165,20 @@ export default function ClipboardToPNG(): JSX.Element {
     };
 
     return (
-        <div className="flex min-h-screen items-center justify-center">
+        <div className="flex flex-col min-h-screen items-end justify-center gap-5 max-w-3xl mx-auto">
+            <Button asChild>
+                <a
+                    href="https://github.com/azkriven16/paste2image"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex text-sm"
+                >
+                    <span>Source</span>
+                    <GithubIcon />
+                </a>
+            </Button>
             <TooltipProvider>
-                <Card className="w-full max-w-3xl mx-auto">
+                <Card className="w-full">
                     <CardHeader>
                         <div className="flex items-center">
                             <Clipboard className="mr-2" size={24} />
