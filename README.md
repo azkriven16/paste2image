@@ -4,6 +4,8 @@
 
 A lightweight web app built with [Next.js](https://nextjs.org/), [shadcn/ui](https://ui.shadcn.com/), and [Tailwind CSS](https://tailwindcss.com/). Perfect for turning code snippets, text, or notes into shareable images in seconds.
 
+![Preview](public/opengraph-image.png)
+
 ## ✨ Features
 
 -   📋 Paste directly from your clipboard
@@ -29,6 +31,7 @@ cd paste2image
 
 npm install
 
-npm run dev 
+npm run dev
 ```
+
 ## Open http://localhost:3000 in your browser
