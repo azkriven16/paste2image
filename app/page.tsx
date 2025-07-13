@@ -26,6 +26,7 @@ import {
     TooltipProvider,
     TooltipTrigger,
 } from "@/components/ui/tooltip";
+import Image from "next/image";
 
 type TabValue = "paste" | "preview";
 
@@ -181,7 +182,13 @@ export default function ClipboardToPNG(): JSX.Element {
                 <Card className="w-full">
                     <CardHeader>
                         <div className="flex items-center">
-                            <Clipboard className="mr-2" size={24} />
+                            <Image
+                                src={"/logo.png"}
+                                alt="Logo"
+                                width={60}
+                                height={60}
+                                className="object-cover"
+                            />
                             <CardTitle>Clipboard to PNG Converter</CardTitle>
                         </div>
                         <CardDescription>
