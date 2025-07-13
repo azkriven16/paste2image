@@ -189,7 +189,9 @@ export default function ClipboardToPNG(): JSX.Element {
                                 height={60}
                                 className="object-cover"
                             />
-                            <CardTitle>Clipboard to PNG Converter</CardTitle>
+                            <CardTitle>
+                                Paste2Image(Clipboard to PNG Converter)
+                            </CardTitle>
                         </div>
                         <CardDescription>
                             Paste content from your clipboard and download it as
